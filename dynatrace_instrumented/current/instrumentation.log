@@ -1,0 +1,87 @@
+2023-01-26 18:04:05    main                	Starting DTSwiftInstrumentor (Version: 8.257.1.1007, Path: /Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application/.dynatrace/DTSwiftInstrumentor)
+2023-01-26 18:04:05    main                	Executing command: /Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application/.dynatrace/DTSwiftInstrumentor instrument /Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application
+2023-01-26 18:04:05    BuildSettingsHelpers	Checking Info.plists for custom settings
+2023-01-26 18:04:05    BuildSettingsHelpers	Found custom settings: {
+}
+2023-01-26 18:04:05    BuildSettingsHelpers	Loading excluded items list:
+2023-01-26 18:04:05    BuildSettingsHelpers	Done loading exclusions
+2023-01-26 18:04:05    BuildSettingsHelpers	- Excluded directories:
+2023-01-26 18:04:05    BuildSettingsHelpers	-
+2023-01-26 18:04:05    BuildSettingsHelpers	- Excluded files:
+2023-01-26 18:04:05    BuildSettingsHelpers	-
+2023-01-26 18:04:05    Instrument          	Acquiring instrumentation lock (/Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application/.dynatrace/.lock)
+2023-01-26 18:04:05    Instrument          	Simulator build detected, aborting instrumentation script.
+2023-01-26 18:04:05    Instrument          	Creating skip file (/Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application/.dynatrace/.skip)
+2023-01-26 18:07:23    main                	Starting DTSwiftInstrumentor (Version: 8.257.1.1007, Path: /Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application/.dynatrace/DTSwiftInstrumentor)
+2023-01-26 18:07:23    main                	Executing command: .dynatrace/DTSwiftInstrumentor uninstall native-swiftui-ios-sample-application.xcodeproj
+2023-01-26 18:07:23    Uninstall           	Removing Dynatrace SwiftUI instrumentation from project (native-swiftui-ios-sample-application.xcodeproj)
+2023-01-26 18:07:23    Uninstall           	Checking Schemes
+2023-01-26 18:07:26    Uninstall           	- Scheme (native-swiftui-ios-sample-application) contains a Dynatrace pre-action script
+2023-01-26 18:07:26    Uninstall           	-- Backing up scheme (native-swiftui-ios-sample-application.xcodeproj/xcshareddata/xcschemes/native-swiftui-ios-sample-application.xcscheme) to (.dynatrace/native-swiftui-ios-sample-application_before_dynatrace_uninstall_2023-01-26_180726.xcscheme)
+2023-01-26 18:07:26    Uninstall           	-- Removed pre-action script ("Dynatrace Instrumentation") from scheme (native-swiftui-ios-sample-application) ✅
+2023-01-26 18:07:26    Uninstall           	Checking Targets
+2023-01-26 18:07:28    Uninstall           	- Target (native-swiftui-ios-sample-application) contains a Dynatrace script phase
+2023-01-26 18:07:28    Uninstall           	-- Removed script phase ("Dynatrace Instrumentation") from target (native-swiftui-ios-sample-application) ✅
+2023-01-26 18:07:28    Uninstall           	Removal Successful 😕
+2023-01-26 18:09:15    main                	Starting DTSwiftInstrumentor (Version: 8.257.1.1007, Path: /Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application/.dynatrace/DTSwiftInstrumentor)
+2023-01-26 18:09:15    main                	Executing command: .dynatrace/DTSwiftInstrumentor install native-swiftui-ios-sample-application.xcodeproj --scheme native-swiftui-ios-sample-application --target native-swiftui-ios-sample-application
+2023-01-26 18:09:15    Install             	Installing Dynatrace SwiftUI instrumentation to project (/Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application)
+2023-01-26 18:09:15    Install             	Checking Targets
+2023-01-26 18:09:18    Install             	- Found target: native-swiftui-ios-sample-application ✅
+2023-01-26 18:09:18    Install             	Checking Schemes
+2023-01-26 18:09:20    Install             	- Found scheme: native-swiftui-ios-sample-application ✅
+2023-01-26 18:09:20    Install             	Adding instrumentation scripts
+2023-01-26 18:09:20    Install             	- Backing up original scheme (native-swiftui-ios-sample-application.xcodeproj/xcshareddata/xcschemes/native-swiftui-ios-sample-application.xcscheme) to (.dynatrace/native-swiftui-ios-sample-application_before_dynatrace_install_2023-01-26_180920.xcscheme)
+2023-01-26 18:09:20    Install             	- Added pre-action script ("Dynatrace Instrumentation") to scheme (native-swiftui-ios-sample-application) ✅
+2023-01-26 18:09:20    Install             	- Added script phase ("Dynatrace Instrumentation") to target (native-swiftui-ios-sample-application) ✅
+2023-01-26 18:09:20    Install             	Installation Successful 🏆
+2023-01-26 18:19:10    main                	Starting DTSwiftInstrumentor (Version: 8.257.1.1007, Path: /Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application/.dynatrace/DTSwiftInstrumentor)
+2023-01-26 18:19:10    main                	Executing command: .dynatrace/DTSwiftInstrumentor uninstall native-swiftui-ios-sample-application.xcodeproj
+2023-01-26 18:19:10    Uninstall           	Removing Dynatrace SwiftUI instrumentation from project (native-swiftui-ios-sample-application.xcodeproj)
+2023-01-26 18:19:10    Uninstall           	Checking Schemes
+2023-01-26 18:19:12    Uninstall           	- Scheme (native-swiftui-ios-sample-application) contains a Dynatrace pre-action script
+2023-01-26 18:19:12    Uninstall           	-- Backing up scheme (native-swiftui-ios-sample-application.xcodeproj/xcshareddata/xcschemes/native-swiftui-ios-sample-application.xcscheme) to (.dynatrace/native-swiftui-ios-sample-application_before_dynatrace_uninstall_2023-01-26_181912.xcscheme)
+2023-01-26 18:19:12    Uninstall           	-- Removed pre-action script ("Dynatrace Instrumentation") from scheme (native-swiftui-ios-sample-application) ✅
+2023-01-26 18:19:12    Uninstall           	Checking Targets
+2023-01-26 18:19:14    Uninstall           	- Target (native-swiftui-ios-sample-application) contains a Dynatrace script phase
+2023-01-26 18:19:14    Uninstall           	-- Removed script phase ("Dynatrace Instrumentation") from target (native-swiftui-ios-sample-application) ✅
+2023-01-26 18:19:14    Uninstall           	Removal Successful 😕
+2023-01-26 20:22:55    main                	Starting DTSwiftInstrumentor (Version: 8.257.1.1007, Path: /usr/local/bin/DTSwiftInstrumentor)
+2023-01-26 20:22:55    main                	Executing command: DTSwiftInstrumentor install native-swiftui-ios-sample-application.xcodeproj --scheme native-swiftui-ios-sample-application --target native-swiftui-ios-sample-application
+2023-01-26 20:22:56    Install             	Installing Dynatrace SwiftUI instrumentation to project (/Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application)
+2023-01-26 20:22:56    Install             	Checking Targets
+2023-01-26 20:23:01    Install             	- Found target: native-swiftui-ios-sample-application ✅
+2023-01-26 20:23:01    Install             	Checking Schemes
+2023-01-26 20:23:03    Install             	- Found scheme: native-swiftui-ios-sample-application ✅
+2023-01-26 20:23:03    Install             	Adding instrumentation scripts
+2023-01-26 20:23:03    Install             	- Backing up original scheme (native-swiftui-ios-sample-application.xcodeproj/xcshareddata/xcschemes/native-swiftui-ios-sample-application.xcscheme) to (.dynatrace/native-swiftui-ios-sample-application_before_dynatrace_install_2023-01-26_202303.xcscheme)
+2023-01-26 20:23:03    Install             	- Added pre-action script ("Dynatrace Instrumentation") to scheme (native-swiftui-ios-sample-application) ✅
+2023-01-26 20:23:03    Install             	- Added script phase ("Dynatrace Instrumentation") to target (native-swiftui-ios-sample-application) ✅
+2023-01-26 20:23:03    Install             	Installation Successful 🏆
+2023-01-27 07:10:19    main                	Starting DTSwiftInstrumentor (Version: 8.257.1.1007, Path: /Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application/.dynatrace/DTSwiftInstrumentor)
+2023-01-27 07:10:19    main                	Executing command: .dynatrace/DTSwiftInstrumentor uninstall native-swiftui-ios-sample-application.xcodeproj
+2023-01-27 07:10:19    Uninstall           	Removing Dynatrace SwiftUI instrumentation from project (native-swiftui-ios-sample-application.xcodeproj)
+2023-01-27 07:10:19    Uninstall           	Checking Schemes
+2023-01-27 07:10:22    Uninstall           	- Scheme (native-swiftui-ios-sample-application) contains a Dynatrace pre-action script
+2023-01-27 07:10:22    Uninstall           	-- Backing up scheme (native-swiftui-ios-sample-application.xcodeproj/xcshareddata/xcschemes/native-swiftui-ios-sample-application.xcscheme) to (.dynatrace/native-swiftui-ios-sample-application_before_dynatrace_uninstall_2023-01-27_071022.xcscheme)
+2023-01-27 07:10:22    Uninstall           	-- Removed pre-action script ("Dynatrace Instrumentation") from scheme (native-swiftui-ios-sample-application) ✅
+2023-01-27 07:10:22    Uninstall           	Checking Targets
+2023-01-27 07:10:24    Uninstall           	- Target (native-swiftui-ios-sample-application) contains a Dynatrace script phase
+2023-01-27 07:10:24    Uninstall           	-- Removed script phase ("Dynatrace Instrumentation") from target (native-swiftui-ios-sample-application) ✅
+2023-01-27 07:10:24    Uninstall           	Removal Successful 😕
+2023-01-27 08:27:15    main                	Starting DTSwiftInstrumentor (Version: 8.257.1.1007, Path: /usr/local/bin/DTSwiftInstrumentor)
+2023-01-27 08:27:15    main                	Executing command: DTSwiftInstrumentor install native-swiftui-ios-sample-application.xcodeproj --scheme native-swiftui-ios-sample-application --target native-swiftui-ios-sample-application
+2023-01-27 08:27:15    Install             	Installing Dynatrace SwiftUI instrumentation to project (/Users/ahmad.sabry/Projects/native-swiftui-ios-sample-application)
+2023-01-27 08:27:15    Install             	Checking Targets
+2023-01-27 08:27:20    Install             	- Found target: native-swiftui-ios-sample-application ✅
+2023-01-27 08:27:20    Install             	Checking Schemes
+2023-01-27 08:27:22    Install             	- Found scheme: native-swiftui-ios-sample-application ✅
+2023-01-27 08:27:22    Install             	Adding instrumentation scripts
+2023-01-27 08:27:22    Install             	- Backing up original scheme (native-swiftui-ios-sample-application.xcodeproj/xcshareddata/xcschemes/native-swiftui-ios-sample-application.xcscheme) to (.dynatrace/native-swiftui-ios-sample-application_before_dynatrace_install_2023-01-27_082722.xcscheme)
+2023-01-27 08:27:22    Install             	- Added pre-action script ("Dynatrace Instrumentation") to scheme (native-swiftui-ios-sample-application) ✅
+2023-01-27 08:27:22    Install             	- Added script phase ("Dynatrace Instrumentation") to target (native-swiftui-ios-sample-application) ✅
+2023-01-27 08:27:22    Install             	Installation Successful 🏆
+2023-01-27 08:31:14    main                	Starting DTSwiftInstrumentor (Version: 8.257.1.1007, Path: /usr/local/bin/DTSwiftInstrumentor)
+2023-01-27 08:31:14    main                	Executing command: DTSwiftInstrumentor restore .
+2023-01-27 08:31:14    Restore             	Backup instrumented *.swift files and restore original versions
+2023-01-27 08:31:14    Restore             	Freeing instrumentation lock (./.dynatrace/.lock)
